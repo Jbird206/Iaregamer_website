@@ -1,3 +1,19 @@
+img{
+
+	cursor: pointer;
+ 
+    border: 0px solid #ffffff;
+}
+
+img.orange:hover{
+  border-color: #66afe9;
+  box-shadow: 0 0 12px rgba(248, 96, 1, 0.774);
+}
+img.green:hover{
+  border-color: #66afe9;
+  box-shadow: 0 0 8px rgba(0, 255, 98, 0.6);
+}
+
 h1 {
   text-align: center;
 }
@@ -41,10 +57,14 @@ p {
 
 
 hr {
-  height: 1px;
-  background-color: aqua;
-  border: none;
-  opacity: 30%;
+  border:none;
+  height: 20px;
+ 	width: 99.9%;
+	height: 50px;
+	margin-top: 5px;
+	border-bottom: 1px solid #6d6057;
+	box-shadow: 0 10px 20px -20px rgb(214, 203, 203);
+  margin: -50px auto 10px; 
 }
 
 li {
@@ -65,10 +85,10 @@ li {
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: rgb(12, 68, 94,0.5);
   overflow: hidden;
-  border-bottom: 3px solid aqua;
-  box-shadow: 5px 20px 50px rgb(44, 178, 231,0.5);
+  border-bottom: 2px solid rgb(167, 245, 245);
+  box-shadow: 5px 20px 30px rgba(6, 224, 240, 0.521);
 }
 
 /* Style the links inside the navigation bar */
@@ -162,11 +182,11 @@ margin-bottom: 15px;
     padding-right: 5px;
     margin-left: 5px;
     margin-top: 5px;
-    box-shadow: 1px 5px 15px rgba(248, 96, 1, 0.774);
-    background-color: rgb(12, 68, 94,0.5);
+    box-shadow: 1px 5px 15px rgba(236, 53, 53, 0.555);
+    background-color: rgb(12, 68, 94,0.2);
     height: 20;
     width: 225px;
-    border: 1px solid 	rgb(253, 144, 1);
+    border: 1px solid 	rgb(253, 9, 1);
     border-radius: 5px;
  }
 
@@ -176,10 +196,11 @@ margin-bottom: 15px;
   padding-right: 5px;
   margin-left: 5px;
   margin-top: 5px;
-  background-color: rgb(12, 68, 94,0.5);
+  box-shadow: 1px 5px 15px rgba(236, 53, 53, 0.555);
+  background-color: rgb(12, 68, 94,0.1);
   height: 5;
-  width: 75px;
-  border: 1px solid aqua;
+  width: 175px;
+  border: 1px solid rgb(253, 9, 1);
   
   border-radius: 5px  10px 1px;
 }
@@ -196,7 +217,7 @@ margin-bottom: 15px;
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
-  width: 30.00%;
+  width: 33.00%;
   padding: 15px;
 }
 
