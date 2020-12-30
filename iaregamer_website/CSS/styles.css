@@ -1,0 +1,256 @@
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-weight: bold;
+  font-weight: 300;
+  font-size: 300;
+  text-align: center;
+  color: rgb(14, 98, 223);
+}
+
+h3 {
+  
+  font-weight: 300;
+  font-size: 300;
+  text-align: center;
+  color: aqua;
+}
+
+h4 {
+  font-weight: bold;
+  font-weight: 300;
+  font-size: 300;
+  text-align: center;
+  color: rgb(128, 163, 216);
+}
+
+h5 {
+  font-weight: bold;
+  font-weight: 300;
+  font-size: 300;
+  text-align: center;
+  color: aqua;
+}
+
+p {
+  color: rgb(141, 152, 161);
+}
+
+
+
+hr {
+  height: 1px;
+  background-color: aqua;
+  border: none;
+  opacity: 30%;
+}
+
+li {
+  color: rgb(141, 152, 161);
+}
+
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: aqua;
+  border-radius: 50%;
+  margin-bottom: 3px;
+  margin-left: 20px;
+  margin-top: 3px;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  border-bottom: 3px solid aqua;
+  box-shadow: 5px 20px 50px rgb(44, 178, 231,0.5);
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(0, 0, 0);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: aqua;
+  color: rgb(14, 13, 13);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active2 {
+  background-color: rgb(65, 184, 184);
+  color: rgb(14, 13, 13);
+}
+
+
+
+
+/* image background */
+body {
+  background-image: url(http://www.baltana.com/files/wallpapers-10/Black%20Geometric%20Abstract%20Design%20Wallpaper.jpg);
+}
+/* linear gradient background */
+
+
+
+ .aboutme {
+  font-style: italic;
+}
+
+.jumbotronMap {
+  background-image: url(https://cdn2.vectorstock.com/i/1000x1000/56/01/dark-world-map-background-vector-17705601.jpg);
+  background-size: cover;
+}
+
+
+.important {
+  color: red;
+}
+
+.unimportant {
+  color: blue;
+}
+
+.my-class {
+  margin: 12px;
+  border: 2px solid blue;
+  padding: 4px;
+  clear: both;
+ font-style: italic;
+}
+
+.container2 {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.containerLogo {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 20px 50px rgb(7, 119, 248);
+    border: 2px solid rgb(129, 243, 243);
+border-radius: 10px;
+margin-top: 15px;
+margin-bottom: 15px;
+  }
+
+  .containerLogo2 {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    box-shadow: 1px 5px 15px rgba(248, 96, 1, 0.774);
+    background-color: rgb(12, 68, 94,0.5);
+    height: 20;
+    width: 225px;
+    border: 1px solid 	rgb(253, 144, 1);
+    border-radius: 5px;
+ }
+
+ .containerLogo3 {
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  background-color: rgb(12, 68, 94,0.5);
+  height: 5;
+  width: 75px;
+  border: 1px solid aqua;
+  
+  border-radius: 5px  10px 1px;
+}
+
+
+
+  .containerLogin {
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #fde405;
+    }
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30.00%;
+  padding: 15px;
+}
+
+.columnGames {
+  float: left;
+  width: 24.00%;
+  padding: 15px;
+  margin: 3px;
+}
+
+
+
+      .container4 {
+        margin: auto;
+        max-width:1175px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: #FAEF16;
+        border: 5px solid #ccc;
+        border-radius: 4px;
+        }
+
+.rounded-circle {
+  border-radius: 50%;
+}
+
+.column2 {
+width: 440px;
+float: left;
+border: 5px solid violet;
+padding: 4px;
+margin: 3px;
+}
+
+
+
+.column4 {
+width: 260px;
+float: right;
+border: 2px solid purple;
+padding: 4px;
+margin: 3px;
+
+}
+
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+a:link { color:aqua; text-decoration: none; }
+a:visited { color:aqua; text-decoration: none; }
+a:hover { color:aqua; text-decoration: none; }
+a:active { color:#7476b4; text-decoration: underline; }
